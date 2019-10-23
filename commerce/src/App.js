@@ -1,13 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header/header'
-
 
 function App() {
   return (
     <>
-      <Header />
+    <h1>React is working</h1>
     </>
   );
 }
