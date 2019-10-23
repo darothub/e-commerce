@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header/header'
+
 
 function App() {
   return (
     <>
-    <h1>React is working on develop branch</h1>
+      <Header />
     </>
   );
 }
