@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header/header'
+import Nav from './Nav/Nav'
 
 
 function App() {
   return (
     <>
-      <Header />
+      <Nav />
     </>
   );
 }
