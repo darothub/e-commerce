@@ -26,7 +26,7 @@ function Nav(){
             <RightNav />
           </div>
         </div>
-        }
+        
       </>
     );
 

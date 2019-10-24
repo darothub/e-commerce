@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function LeftProduct(){
+function LeftProductComponent(){
     return (
       <>
         <div className="col-2 left-display d-flex flex-column align-items-center">
@@ -15,10 +15,10 @@ function LeftProduct(){
               src={window.location.origin + "/assets/images/oculusmall.png"}
             />
           </div>
-          <p className="lead">SHOP NOW</p>
+          <p className="lead p">SHOP NOW</p>
         </div>
       </>
     );
 }
 
-export default LeftProduct
+export default LeftProductComponent;

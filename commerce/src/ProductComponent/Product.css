@@ -1,17 +1,24 @@
 .p-name-price h3, p{
     color: black;
+    
+}
+.p-name-price{
+    margin-top: 20px;
 }
 
 .left-display{
     background-color: #F6F7F8;
     width: 278px;
-    height: 600px;
+    height: auto;
     justify-content: space-between;
 }
 .product-wrapper{
     background-color: blue;
-}
 
+}
+/* .product-container{
+    justify-content: space-between;
+} */
 .img-container{
     width: 278;
     height: 278;
@@ -22,7 +29,54 @@ img{
     width: 100%;
     height: 100%;
 }
-.lead{
+.p{
     font-weight: bold;
     color: var(--primary-blue);
+}
+
+.tv-card{
+    width: 240px;
+    height: 349px;
+    max-width: 270px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.img-container-tv{
+    width: 236px;
+    height: 153px;
+    border-bottom:1px #F6F7F8 solid ;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tv-name{
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.price-container p{
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+.p-price:nth-of-type(1){
+    color: red;
+}
+.p-price:nth-of-type(2){
+    color: lightgray;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.stars{
+    width: 20px;
+}
+
+.right-display{
+    justify-content: space-between;
+    background-color: white;
 }
