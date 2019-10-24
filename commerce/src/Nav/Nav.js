@@ -18,28 +18,15 @@ function Nav(){
         symbol: "NGN"
       }
     ];
-  let[loading, setLoading] = useState(true)
-    useEffect(()=>{
-      setTimeout(()=>{
-        setLoading(loading = false)
-      }, 1500)
-    
-    }, [])
     return (
-      <>
-        {loading ? (
-          <button className="btn btn-primary" disabled>
-            <span className="spinner-grow spinner-grow-sm"></span>
-            Loading..
-          </button>
-        ) : (
-          <div className="container-fluid wrapper d-flex">
-            <div className="container d-flex p-2">
-              <LeftNav option={navEl} />
-              <RightNav />
-            </div>
+      <>   
+        <div className="container-fluid wrapper d-flex">
+          <div className="container d-flex p-2">
+            <LeftNav option={navEl} />
+            <RightNav />
           </div>
-        )}
+        </div>
+        }
       </>
     );
 

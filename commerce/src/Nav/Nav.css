@@ -1,7 +1,7 @@
 :root{
     --primary-blue: #33A0FF;
 }
-.container-fluid{
+.wrapper{
     background-color: var(--primary-blue);
     height: 40px;
 }
