@@ -9,7 +9,7 @@ function RightNav(){
           <div className="list-inline">
             <li className="d-inlineflex">
               <span className="icon-wrapper ">
-                <i class="material-icons person align-middle">person_outline</i>
+                <i className="material-icons person align-middle">person_outline</i>
               </span>
               <a className="anchors" href="#/">
                 My profile
@@ -27,7 +27,7 @@ function RightNav(){
             </li>
             <li>
               <a href="#/">
-                <i class="material-icons align-middle">search</i>
+                <i className="material-icons align-middle">search</i>
               </a>
             </li>
           </div>

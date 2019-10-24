@@ -6,6 +6,18 @@ import RightNav from './Rightnav'
 
 
 function Nav(){
+    const navEl = [
+      {
+        key: 1,
+        lang: "ENG",
+        symbol: "USD"
+      },
+      {
+        key: 1,
+        lang: "ENG",
+        symbol: "NGN"
+      }
+    ];
   let[loading, setLoading] = useState(true)
     useEffect(()=>{
       setTimeout(()=>{
@@ -16,14 +28,14 @@ function Nav(){
     return (
       <>
         {loading ? (
-          <button class="btn btn-primary" disabled>
-            <span class="spinner-grow spinner-grow-sm"></span>
+          <button className="btn btn-primary" disabled>
+            <span className="spinner-grow spinner-grow-sm"></span>
             Loading..
           </button>
         ) : (
           <div className="container-fluid wrapper d-flex">
             <div className="container d-flex p-2">
-              <LeftNav />
+              <LeftNav option={navEl} />
               <RightNav />
             </div>
           </div>

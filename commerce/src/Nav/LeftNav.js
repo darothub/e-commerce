@@ -1,17 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Nav.css";
 
-function LeftNav() {
+function LeftNav(props) {
+    let [lang, setLang] = useState('ENG')
+    let [currency, setCurrency] = useState('USD')
+    const optionsLang = props.option.map(item =>{
+        return <option>{item.lang}</option>;
+    })
+    const optionsCurrency = props.option.map(item => {
+      return <option>{item.symbol}</option>;
+    });
   return (
     <>
       <div className="d-flex">
-        <select>
-          <option>EN</option>
-        </select>
-        <select>
-          <option>USD</option>
-        </select>
+        <select>{optionsLang}</select>
+        <select>{optionsCurrency}</select>
       </div>
     </>
   );
