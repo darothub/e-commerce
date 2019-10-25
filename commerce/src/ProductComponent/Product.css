@@ -1,28 +1,36 @@
-.p-name-price h3, p{
-    color: black;
-    
+body{
+    margin: 0;
+    padding: 0;
 }
-.p-name-price{
-    margin-top: 20px;
+
+.product-wrapper{
+    /* background-color: blue; */
+    padding: 0px;
 }
 
 .left-display{
+    width: 20.9%;
     background-color: #F6F7F8;
-    width: 278px;
-    height: auto;
-    justify-content: space-between;
 }
-.product-wrapper{
-    background-color: blue;
 
+.product-container{
+    flex-grow: 1;
 }
-/* .product-container{
-    justify-content: space-between;
-} */
+
+.right-cards {
+    width: 100%;
+    /* background-color: red; */
+}
+.right-bottom{
+    margin-top: 20px;
+}
+.top-right-wrapper{
+    width: 75%;
+}
 .img-container{
-    width: 278;
-    height: 278;
-    max-width: 300px;
+    width: 270;
+    /* height: 278; */
+    /* max-width: 300px; */
 }
 
 img{
@@ -34,14 +42,18 @@ img{
     color: var(--primary-blue);
 }
 
+.p-name-price{
+
+    margin-top: 20px;
+}
+
+
 .tv-card{
-    width: 240px;
+    min-width: 20%;
     height: 349px;
-    max-width: 270px;
-    margin-bottom: 10px;
+    max-height: 350px;
     border: 1px solid lightgrey;
-    justify-content: space-between;
-    /* background-color: red; */
+    
 }
 .img-container-tv{
     width: 236px;
@@ -53,7 +65,7 @@ img{
 
 .tv-name{
     font-size: 16px;
-    color: #000;
+    /* color: #000; */
     margin-top: 20px;
 }
 
@@ -72,11 +84,38 @@ img{
     font-weight: bold;
 }
 
+
 .stars{
     width: 20px;
 }
+.bottom-left{
+    width: 100%;
+    /* background-color: green; */
+    
+}
 
-.right-display{
-    justify-content: space-between;
-    background-color: white;
+
+.bottom-left-wrapper{
+    width: 46%;
+    /* background-color: purple; */
+}
+
+.right-bottom-display{
+    width: 50%;
+    background-color: #FF6875;
+}
+
+.mt{
+    margin-top: 20px;
+}
+.phone-image{
+    margin-top: -200px;
+}
+.iphone-t-p{
+    margin-top: 70px;
+    color: white;
+}
+
+.iphone-t-p h2{
+    font-size: 60px;
 }

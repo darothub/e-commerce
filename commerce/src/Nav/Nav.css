@@ -5,9 +5,7 @@
     background-color: var(--primary-blue);
     height: 40px;
 }
-.row{
-    background-color: var(--primary-blue);
-}
+
 
 .col-6:nth-child(1){
     background-color: var(--primary-blue);
@@ -25,7 +23,7 @@ select{
     color: #fff;
 }
 
-.container{
+.comp-container{
     justify-content: space-between;
     align-items: center;
     color: #fff;
@@ -55,7 +53,6 @@ select{
 button {  
   /* This section calls the slideInFromLeft animation we defined above */
   animation: 1s ease-out 0s 1 slideInFromLeft;
-  
   background: #333;
   padding: 30px;
 }

@@ -21,7 +21,7 @@ function Nav(){
     return (
       <>   
         <div className="container-fluid wrapper d-flex">
-          <div className="container d-flex p-2">
+          <div className="container d-flex p-2 comp-container">
             <LeftNav option={navEl} />
             <RightNav />
           </div>
