@@ -1,0 +1,129 @@
+:root{
+    --primary-blue: #33A0FF;
+}
+.wrapper{
+    border: none;
+    background-color: var(--primary-blue);
+    min-height: 40px;
+}
+.pad-zero{
+    padding: 0px;
+}
+.l-height{
+    line-height: 0px !important;
+}
+/* .icon{
+    padding: 0px;
+    line-height: 0px !important;
+} */
+.marginr-0{
+    margin-right: 0px;
+}
+/* .con{
+    border: 2px solid goldenrod;
+    
+} */
+
+/* .roe{
+    padding: 0px;
+       border: 1px solid yellow
+} */
+/* .colo1{
+    padding: 0px;
+    border: 3px solid green;
+} */
+/* .colo2{
+    padding: 0px;
+    border: 1px solid purple;
+} */
+/* .col-6:nth-child(1){
+    background-color: var(--primary-blue);
+    text-align: center;
+} */
+
+select{
+    background-color: var(--primary-blue);
+    border: none;
+    color: #fff;
+
+}
+.material-icons{
+    font-size: 20px;
+    line-height: 5em;
+    margin-right: 3px;
+    /* vertical-align: middle; */
+}
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+button {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  background: #333;
+  padding: 30px;
+}
+/* .person{} */
+
+.header{
+    /* background-color: green; */
+    text-align: center;
+}
+.header h1{
+    text-transform: uppercase;
+    color: red;
+    font-size: 2em;
+}
+.nav-wrapper{
+    background-color: white;
+    text-align: center;
+}
+
+.nav-menu{
+    text-align: center;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+a{
+    cursor: pointer;
+}
+
+.nav-menu a{
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 30px;
+    font-size: 1;
+}
+a.active{
+    color: #33A0FF;
+}
+
+.category-wrapper{
+    background-color: white;
+}
+
+.sub-category-wrapper{
+    width: 315px;
+    max-width: 320px;
+    height: auto;
+    background-color: white;
+}
+.sub-category-wrapper a{
+    font-size: 13px;
+    line-height: 3em;
+    
+}
+.sub-category-right-wrapper a{
+    font-size: 13px;
+    line-height: 3em;
+}
+.category-wrapper h6{
+    font-size: 14px;
+    color: #C1C8CE;
+}

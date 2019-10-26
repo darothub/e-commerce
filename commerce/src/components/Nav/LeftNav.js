@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import "./Nav.css";
 
 function LeftNav(props) {
@@ -12,12 +12,10 @@ function LeftNav(props) {
       return <option>{item.symbol}</option>;
     });
   return (
-    <>
-      <div className="d-flex">
-        <select>{optionsLang}</select>
-        <select>{optionsCurrency}</select>
-      </div>
-    </>
+    <div className="col-md-2 my-md-2 pad-zero">
+      <select>{optionsLang}</select>
+      <select>{optionsCurrency}</select>
+    </div>
   );
 }
 

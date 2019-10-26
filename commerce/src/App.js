@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Nav from './Nav/Nav'
-import Product from './ProductComponent/Product'
+import "bootstrap/dist/css/bootstrap.min.css";
+import Nav from "./components/Nav/Nav";
+import Product from './components/ProductComponent/Product'
 
 
 function App() {
@@ -15,16 +14,23 @@ function App() {
   return (
     <>
       {loading ? (
-          <button className="btn btn-primary" disabled>
-            <span className="spinner-grow spinner-grow-sm"></span>
-            Loading..
-          </button>
-        ) : 
-        (
-      <>
-        <Nav />
-        <Product />
-      </>
+        <button className="btn btn-primary" disabled>
+          <span className="spinner-grow spinner-grow-sm"></span>
+          Loading..
+        </button>
+      ) : (
+        <div className="container-fluid ">
+          <div className="row ">
+            <div className="col-lg-12 px-0 col-md-12">
+              <Nav />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <Product />
+            </div>
+          </div>
+        </div>
       )}
     </>
   );

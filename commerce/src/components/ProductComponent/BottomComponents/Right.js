@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function RightBottomProductComponent() {
   return (
     <>
-      <div className="col-6 d-flex right-bottom-display mt align-items-center flex-wrap">
+      <div className="d-flex right-bottom-display mt align-items-center flex-wrap">
         <div className="iphone-t-p">
           <h2 className="lead">iPhone 8</h2>
           <p className="lead">$399</p>
