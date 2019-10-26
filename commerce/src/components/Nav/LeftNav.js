@@ -12,8 +12,8 @@ function LeftNav(props) {
       return <option>{item.symbol}</option>;
     });
   return (
-    <div className="col-md-2 my-md-2 pad-zero">
-      <select>{optionsLang}</select>
+    <div className="col-md-1.5  my-md-2 pad-zero mx-md-0 mx-auto">
+      <select >{optionsLang}</select>
       <select>{optionsCurrency}</select>
     </div>
   );

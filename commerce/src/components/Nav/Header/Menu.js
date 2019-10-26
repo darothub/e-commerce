@@ -28,34 +28,34 @@ function Menu(){
             className="collapse navbar-collapse d-flex "
             id="navbarNavAltMarkup"
           >
-            <div className="navbar-nav nav-menu d-flex justify-content-between">
+            <div className="  navbar-nav nav-menu d-flex justify-content-between align-items-xs-center">
               <a
-                className="nav-item nav-link active"
+                className="nav-item nav-link active ml-0"
                 href="#/"
                 onMouseOver={showCategory}
                 onMouseLeave={showCategory}
               >
                 Home <span className="sr-only">(current)</span>
               </a>
-              <a className="nav-item nav-link" href="#">
+              <a className="nav-item nav-link ml-0" href="#">
                 Store
               </a>
-              <a className="nav-item nav-link" href="#">
+              <a className="nav-item nav-link ml-0" href="#">
                 iPhone
               </a>
-              <a className="nav-item nav-link " href="#">
+              <a className="nav-item nav-link ml-0" href="#">
                 iPad
               </a>
-              <a className="nav-item nav-link " href="#">
+              <a className="nav-item nav-link ml-0" href="#">
                 Macbook
               </a>
-              <a className="nav-item nav-link " href="#">
+              <a className="nav-item nav-link ml-0 " href="#">
                 Accessories
               </a>
             </div>
           </div>
         </nav>
-        {hover == true && <CategoryComponent/>}
+        {hover == true && <CategoryComponent />}
       </>
     );
 }

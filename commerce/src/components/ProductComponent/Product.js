@@ -43,7 +43,7 @@ function Product() {
           </div>
         </div>
       </section>
-      <section className=" container px-0 d-md-flex flex-row flex-wrap justify-content-md-between">
+      <section className=" container px-0 d-md-flex flex-row  flex-wrap justify-content-md-between">
         <div className="d-md-flex flex-column bottom-left-product">
           <div className="d-md-flex justify-content-md-between">
             <MonitorCard />

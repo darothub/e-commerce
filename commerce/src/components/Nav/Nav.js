@@ -24,7 +24,7 @@ function Nav(){
       <div className="container-fluid  wrapper">
         <div className="container mx-md-auto  con">
           <div className="row justify-content-between">
-            <LeftNav option ={navEl}/>
+           <LeftNav option ={navEl}/>
             <div className="col-md-5 px-0 align-self-center">
               <div className="container-fluid  align-self-center">
                 <RightNav />
